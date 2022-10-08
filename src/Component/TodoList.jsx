@@ -6,7 +6,6 @@ function TodoList() {
     <Fragment>
       <h1>What's the plan for today ?</h1>
       <TodoForm />
-      hello
     </Fragment>
   );
 }

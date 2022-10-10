@@ -18,10 +18,11 @@ function TodoForm(props) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // props.onSubmit({
-    //   id: Math.floor(Math.random * 10000),
-    //   text: name
-    // })
+    //provides id and name to every todo created
+    props.onSubmit({
+      id: Math.floor(Math.random() * 10000),
+      text: name,
+    });
 
     setName("");
   };
